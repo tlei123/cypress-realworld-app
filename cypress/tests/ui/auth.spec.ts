@@ -17,20 +17,20 @@ describe("User Sign-up and Login", function () {
     });
   });
 
-  it("should redirect unauthenticated user to signin page", function () {
+  it("should redirect unauthenticated user to signin page - C23984", function () {
     cy.visit("/personal");
     cy.location("pathname").should("equal", "/signin");
     cy.visualSnapshot("Redirect to SignIn");
   });
 
-  it("should redirect to the home page after login", function () {
+  it("should redirect to the home page after login - C23985", function () {
     cy.database("find", "users").then((user: User) => {
       cy.login(user.username, "s3cret", { rememberUser: true });
     });
     cy.location("pathname").should("equal", "/");
   });
 
-  it("should remember a user for 30 days after login", function () {
+  it("should remember a user for 30 days after login - C23986", function () {
     cy.database("find", "users").then((user: User) => {
       cy.login(user.username, "s3cret", { rememberUser: true });
     });
@@ -47,7 +47,7 @@ describe("User Sign-up and Login", function () {
     cy.visualSnapshot("Redirect to SignIn");
   });
 
-  it("should allow a visitor to sign-up, login, and logout", function () {
+  it("should allow a visitor to sign-up, login, and logout - C23987", function () {
     const userInfo = {
       firstName: "Bob",
       lastName: "Ross",
@@ -108,7 +108,7 @@ describe("User Sign-up and Login", function () {
     cy.visualSnapshot("Redirect to SignIn");
   });
 
-  it("should display login errors", function () {
+  it("should display login errors - C23988", function () {
     cy.visit("/");
 
     cy.getBySel("signin-username").type("User").find("input").clear().blur();
@@ -125,7 +125,7 @@ describe("User Sign-up and Login", function () {
     cy.visualSnapshot("Sign In Submit Disabled");
   });
 
-  it("should display signup errors", function () {
+  it("should display signup errors - C23989", function () {
     cy.intercept("GET", "/signup");
 
     cy.visit("/signup");
@@ -152,7 +152,7 @@ describe("User Sign-up and Login", function () {
     cy.visualSnapshot("Sign Up Submit Disabled");
   });
 
-  it("should error for an invalid user", function () {
+  it("should error for an invalid user - C23990", function () {
     cy.login("invalidUserName", "invalidPa$$word");
 
     cy.getBySel("signin-error")
@@ -161,7 +161,7 @@ describe("User Sign-up and Login", function () {
     cy.visualSnapshot("Sign In, Invalid Username and Password, Username or Password is Invalid");
   });
 
-  it("should error for an invalid password for existing user", function () {
+  it("should error for an invalid password for existing user - C23991", function () {
     cy.database("find", "users").then((user: User) => {
       cy.login(user.username, "INVALID");
     });
