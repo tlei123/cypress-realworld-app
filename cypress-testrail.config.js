@@ -101,6 +101,7 @@ module.exports = defineConfig({
       return config;
     },
   },
+  video: false,
   reporter: "vagov-cy-tr-reporter",
   reporterOptions: {
     host: "https://dsvavsp.testrail.io/",
