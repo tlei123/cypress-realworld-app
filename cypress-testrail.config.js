@@ -102,7 +102,7 @@ module.exports = defineConfig({
     },
   },
   video: false,
-  reporter: "vagov-cy-tr-reporter",
+  reporter: "@tlei123/vagov-cy-tr-reporter",
   reporterOptions: {
     host: "https://dsvavsp.testrail.io/",
     username: process.env.TR_USER,
