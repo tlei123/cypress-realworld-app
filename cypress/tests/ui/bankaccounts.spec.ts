@@ -38,7 +38,7 @@ describe("Bank Accounts", function () {
     });
   });
 
-  it("creates a new bank account", function () {
+  it("creates a new bank account - C25181", function () {
     cy.wait("@getNotifications");
     if (isMobile()) {
       cy.getBySel("sidenav-toggle").click();
@@ -65,7 +65,7 @@ describe("Bank Accounts", function () {
     cy.visualSnapshot("Bank Account Created");
   });
 
-  it("should display bank account form errors", function () {
+  it("should display bank account form errors - C25182", function () {
     cy.visit("/bankaccounts");
     cy.getBySel("bankaccount-new").click();
 
@@ -128,7 +128,7 @@ describe("Bank Accounts", function () {
     cy.visualSnapshot("Bank Account Form with Errors and Submit button disabled");
   });
 
-  it("soft deletes a bank account", function () {
+  it("soft deletes a bank account - C25183", function () {
     cy.visit("/bankaccounts");
     cy.getBySelLike("delete").first().click();
 
@@ -138,7 +138,7 @@ describe("Bank Accounts", function () {
   });
 
   // TODO: [enhancement] the onboarding modal assertion can be removed after adding "onboarded" flag to user profile
-  it("renders an empty bank account list state with onboarding modal", function () {
+  it("renders an empty bank account list state with onboarding modal - C25184", function () {
     cy.wait("@getNotifications");
     cy.intercept("POST", apiGraphQL, (req) => {
       const { body } = req;

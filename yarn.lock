@@ -4204,10 +4204,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tlei123/vagov-cy-tr-reporter@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tlei123/vagov-cy-tr-reporter/-/vagov-cy-tr-reporter-0.0.1.tgz#501a0f75a1a972719c5a927b4a2644e9b3a4cbf5"
-  integrity sha512-fLU+F49xVS7lWJGjXR5vDqUKPlURdTH7oJ5nzaeTm2JBevQC2FeJSoRK7KeJ42rFW6EkLOhIRcKuMQKNRgWB1w==
+"@tlei123/vagov-cy-tr-reporter@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@tlei123/vagov-cy-tr-reporter/-/vagov-cy-tr-reporter-0.0.2.tgz#6a722258a1d6092a094ef5178996907fac5fadf2"
+  integrity sha512-XkWkaxL7t406Hea0vNMWyZ7aZYP+jUFMnXkKCFHfr/tbKguCgDGs1nYyqXCV62XfgXHHs4QJV2vG31hlDfd4vQ==
   dependencies:
     axios "^1.1.3"
     chalk "4"
