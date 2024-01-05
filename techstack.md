@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 tlei123/cypress-realworld-app is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -27,11 +28,13 @@ tlei123/cypress-realworld-app is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 tlei123/cypress-realworld-app is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -57,14 +60,15 @@ tlei123/cypress-realworld-app is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [tlei123/cypress-realworld-app](https://github.com/tlei123/cypress-realworld-app)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|82<br/>Tools used|11/12/23 <br/>Report generated|
+|84<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -320,9 +324,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (54)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (56)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (54)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (56)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -365,6 +369,7 @@ Full tech stack [here](/techstack.md)
 |[fuse.js](https://www.npmjs.com/fuse.js)|v6.5.3|04/19/22|renovate[bot] |Apache-2.0|N/A|
 |[graphql-tools](https://www.npmjs.com/graphql-tools)|v8.2.7|04/25/22|Renovate Bot |MIT|N/A|
 |[history](https://www.npmjs.com/history)|v4.10.1|08/07/21|Renovate Bot |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v7.0.4|04/20/22|renovate[bot] |MIT|N/A|
 |[json](https://www.npmjs.com/json)|v11.0.0|04/19/22|renovate[bot] |Other|N/A|
 |[lowdb](https://www.npmjs.com/lowdb)|v1.0.0|08/16/21|renovate[bot] |MIT|N/A|
 |[morgan](https://www.npmjs.com/morgan)|v1.10.0|08/07/21|Renovate Bot |MIT|N/A|
@@ -380,8 +385,9 @@ Full tech stack [here](/techstack.md)
 |[shortid](https://www.npmjs.com/shortid)|v2.2.16|01/22/21|Kevin Old |MIT|N/A|
 |[ts-node](https://www.npmjs.com/ts-node)|v10.7.0|04/19/22|renovate[bot] |MIT|N/A|
 |[uuid](https://www.npmjs.com/uuid)|v3.3.2|04/19/22|renovate[bot] |MIT|N/A|
+|[yup](https://www.npmjs.com/yup)|v0.32.11|01/06/20|Kevin Old |MIT|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
